@@ -50,7 +50,6 @@ public class TemplateRenderer {
             return new StoryAdapter(context, jsonObject.getJSONArray("content"), (NativeDisplayListener) context, shouldAppend);
         } catch (JSONException e) {
             e.printStackTrace();
-
             return null;
         }
     }
