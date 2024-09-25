@@ -7,8 +7,8 @@ import android.widget.RemoteViews;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import com.clevertap.templates.R;
-import com.clevertap.templates.common.Utils;
+import com.karthik.ctpushtemplates.R;
+import com.karthik.ctpushtemplates.common.Utils;
 
 import java.util.ArrayList;
 
