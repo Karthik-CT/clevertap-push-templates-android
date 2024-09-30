@@ -7,12 +7,14 @@ import android.view.ViewGroup;
 import androidx.annotation.IdRes;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import com.karthik.pt_android.nd.CustomButton;
-import com.karthik.pt_android.nd.NativeDisplayListener;
-import com.karthik.pt_android.nd.VideoFragment;
-import com.karthik.pt_android.nd.story.StoryAdapter;
-import com.karthik.pt_android.pn.PushNotificationListener;
-import com.karthik.pt_android.pn.PushTemplateRenderer;
+
+import com.karthik.ctpushtemplates.nd.CustomButton;
+import com.karthik.ctpushtemplates.nd.NativeDisplayListener;
+import com.karthik.ctpushtemplates.nd.VideoFragment;
+import com.karthik.ctpushtemplates.nd.story.StoryAdapter;
+import com.karthik.ctpushtemplates.pn.PushNotificationListener;
+import com.karthik.ctpushtemplates.pn.PushTemplateRenderer;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -45,7 +47,7 @@ public class TemplateRenderer {
     }
 
     public StoryAdapter displayStories(Activity context, JSONObject jsonObject,
-                                         Boolean shouldAppend) {
+                                       Boolean shouldAppend) {
         try {
             return new StoryAdapter(context, jsonObject.getJSONArray("content"), (NativeDisplayListener) context, shouldAppend);
         } catch (JSONException e) {

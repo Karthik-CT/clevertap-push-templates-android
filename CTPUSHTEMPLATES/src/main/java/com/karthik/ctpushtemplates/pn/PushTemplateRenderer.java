@@ -1,14 +1,18 @@
 package com.karthik.ctpushtemplates.pn;
 
+import android.Manifest;
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.widget.RemoteViews;
 
+import androidx.core.app.ActivityCompat;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import com.clevertap.templates.R;
-import com.clevertap.templates.common.Utils;
+
+import com.karthik.ctpushtemplates.R;
+import com.karthik.ctpushtemplates.common.Utils;
 
 import java.util.ArrayList;
 
@@ -69,6 +73,10 @@ public class PushTemplateRenderer {
                 gifExpandedContentView.addView(R.id.view_flipper, imageContentView);
             }
 
+            if (ActivityCompat.checkSelfPermission(applicationContext, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+
+                return;
+            }
             notificationManager.notify(2, builder.setContentTitle("title")
                     .setSmallIcon(R.drawable.custom_progress_drawable)
                     .setCustomContentView(gifCollapsedContentView)
@@ -136,6 +144,9 @@ public class PushTemplateRenderer {
             collapsed.setInt(R.id.view_flipper, "setFlipInterval", 500);
             expanded.setInt(R.id.view_flipper, "setFlipInterval", 500);
 
+            if (ActivityCompat.checkSelfPermission(applicationContext, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+                return;
+            }
             notificationManager.notify(2, getNotification(pushTitleStart, builder, collapsed, expanded).build());
 
             listener.onPushRendered();
