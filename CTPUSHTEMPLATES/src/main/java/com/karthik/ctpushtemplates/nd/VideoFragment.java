@@ -21,8 +21,6 @@ import android.widget.VideoView;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-
-
 import com.karthik.ctpushtemplates.R;
 
 import org.json.JSONException;

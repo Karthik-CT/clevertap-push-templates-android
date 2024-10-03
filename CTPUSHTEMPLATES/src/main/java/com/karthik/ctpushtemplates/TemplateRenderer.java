@@ -7,14 +7,12 @@ import android.view.ViewGroup;
 import androidx.annotation.IdRes;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
 import com.karthik.ctpushtemplates.nd.CustomButton;
 import com.karthik.ctpushtemplates.nd.NativeDisplayListener;
 import com.karthik.ctpushtemplates.nd.VideoFragment;
 import com.karthik.ctpushtemplates.nd.story.StoryAdapter;
 import com.karthik.ctpushtemplates.pn.PushNotificationListener;
 import com.karthik.ctpushtemplates.pn.PushTemplateRenderer;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 

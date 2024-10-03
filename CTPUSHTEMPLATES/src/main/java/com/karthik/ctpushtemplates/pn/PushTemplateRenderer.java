@@ -14,8 +14,6 @@ import android.widget.Toast;
 import androidx.core.app.ActivityCompat;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
-
-
 import com.karthik.ctpushtemplates.R;
 import com.karthik.ctpushtemplates.common.Utils;
 
