@@ -45,7 +45,7 @@ public class TemplateRenderer {
     }
 
     public StoryAdapter displayStories(Activity context, JSONObject jsonObject,
-                                         Boolean shouldAppend) {
+                                       Boolean shouldAppend) {
         try {
             return new StoryAdapter(context, jsonObject.getJSONArray("content"), (NativeDisplayListener) context, shouldAppend);
         } catch (JSONException e) {
