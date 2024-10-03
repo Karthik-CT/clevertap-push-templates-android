@@ -1,4 +1,4 @@
-package com.karthik.ctpushtemplates.pn;
+package com.clevertap.ctcustomtemplates.pn;
 
 public interface PushNotificationListener {
     void onPushRendered();

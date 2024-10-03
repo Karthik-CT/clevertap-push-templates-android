@@ -1,14 +1,14 @@
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.jetbrains.kotlin.android)
+    id 'com.android.application'
+    id 'kotlin-android'
 }
 
 android {
-    namespace 'com.karthik.ct_android_pt'
+    namespace 'com.clevertap.cttemplateapp'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.karthik.ct_android_pt"
+        applicationId "com.clevertap.cttemplateapp"
         minSdk 24
         targetSdk 34
         versionCode 1

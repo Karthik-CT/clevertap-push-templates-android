@@ -1,4 +1,4 @@
-package com.karthik.ctpushtemplates.nd;
+package com.clevertap.ctcustomtemplates.nd;
 
 import android.animation.ValueAnimator;
 import android.content.Context;

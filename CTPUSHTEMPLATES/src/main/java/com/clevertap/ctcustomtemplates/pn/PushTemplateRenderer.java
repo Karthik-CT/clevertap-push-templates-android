@@ -1,4 +1,4 @@
-package com.karthik.ctpushtemplates.pn;
+package com.clevertap.ctcustomtemplates.pn;
 
 import android.Manifest;
 import android.app.PendingIntent;
@@ -16,8 +16,8 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
 
-import com.karthik.ctpushtemplates.R;
-import com.karthik.ctpushtemplates.common.Utils;
+import com.clevertap.ctcustomtemplates.R;
+import com.clevertap.ctcustomtemplates.common.Utils;
 
 import java.util.ArrayList;
 import java.util.Objects;

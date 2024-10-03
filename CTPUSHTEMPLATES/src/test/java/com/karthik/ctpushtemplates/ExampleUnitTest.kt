@@ -1,4 +1,4 @@
-package com.karthik.ctpushtemplates
+package com.clevertap.ctcustomtemplates
 
 import org.junit.Test
 

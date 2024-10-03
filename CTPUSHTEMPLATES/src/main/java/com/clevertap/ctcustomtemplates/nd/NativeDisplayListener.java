@@ -1,4 +1,4 @@
-package com.karthik.ctpushtemplates.nd;
+package com.clevertap.ctcustomtemplates.nd;
 
 public interface NativeDisplayListener {
     void onSuccess(String id);

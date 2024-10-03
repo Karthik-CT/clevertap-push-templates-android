@@ -1,4 +1,4 @@
-package com.karthik.ctpushtemplates.nd;
+package com.clevertap.ctcustomtemplates.nd;
 
 import static android.view.Gravity.BOTTOM;
 import static android.view.Gravity.END;
@@ -23,7 +23,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 
-import com.karthik.ctpushtemplates.R;
+import com.clevertap.ctcustomtemplates.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;

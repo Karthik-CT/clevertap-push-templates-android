@@ -1,4 +1,4 @@
-package com.karthik.ctpushtemplates.common;
+package com.clevertap.ctcustomtemplates.common;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

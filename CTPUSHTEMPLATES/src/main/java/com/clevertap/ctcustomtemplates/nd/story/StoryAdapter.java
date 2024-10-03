@@ -1,4 +1,4 @@
-package com.karthik.ctpushtemplates.nd.story;
+package com.clevertap.ctcustomtemplates.nd.story;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -8,10 +8,10 @@ import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.karthik.ctpushtemplates.R;
-import com.karthik.ctpushtemplates.common.Utils;
-import com.karthik.ctpushtemplates.databinding.ItemStoryBinding;
-import com.karthik.ctpushtemplates.nd.NativeDisplayListener;
+import com.clevertap.ctcustomtemplates.R;
+import com.clevertap.ctcustomtemplates.databinding.ItemStoryBinding;
+import com.clevertap.ctcustomtemplates.nd.NativeDisplayListener;
+import com.clevertap.ctcustomtemplates.common.Utils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

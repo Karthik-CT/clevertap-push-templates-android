@@ -1,4 +1,4 @@
-package com.karthik.ctpushtemplates;
+package com.clevertap.ctcustomtemplates;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,12 +8,12 @@ import androidx.annotation.IdRes;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.karthik.ctpushtemplates.nd.CustomButton;
-import com.karthik.ctpushtemplates.nd.NativeDisplayListener;
-import com.karthik.ctpushtemplates.nd.VideoFragment;
-import com.karthik.ctpushtemplates.nd.story.StoryAdapter;
-import com.karthik.ctpushtemplates.pn.PushNotificationListener;
-import com.karthik.ctpushtemplates.pn.PushTemplateRenderer;
+import com.clevertap.ctcustomtemplates.nd.CustomButton;
+import com.clevertap.ctcustomtemplates.nd.NativeDisplayListener;
+import com.clevertap.ctcustomtemplates.nd.VideoFragment;
+import com.clevertap.ctcustomtemplates.nd.story.StoryAdapter;
+import com.clevertap.ctcustomtemplates.pn.PushNotificationListener;
+import com.clevertap.ctcustomtemplates.pn.PushTemplateRenderer;
 
 import org.json.JSONException;
 import org.json.JSONObject;

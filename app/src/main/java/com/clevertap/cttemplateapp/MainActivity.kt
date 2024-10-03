@@ -1,4 +1,4 @@
-package com.karthik.ct_android_pt
+package com.clevertap.cttemplateapp
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
